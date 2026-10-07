@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pocketsense Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px; color: #1b1c20; background: #fff; }
+  h1 { font-size: 28px; } h2 { font-size: 20px; margin-top: 32px; }
+  @media (prefers-color-scheme: dark) { body { color: #e3e2e9; background: #0d0e13; } a { color: #10b981; } }
+</style>
+</head>
+<body>
+<h1>Pocketsense Privacy Policy</h1>
+<p>Last updated: 8 October 2026</p>
+
+<p>Pocketsense is a personal expense tracker that works entirely on your phone. We do not run any servers, and we never receive, store, sell or share your data.</p>
+
+<h2>What the app reads, and why</h2>
+<ul>
+  <li><strong>SMS (READ_SMS), only if you allow it.</strong> Pocketsense reads messages from banks, cards and payment services to record your transactions automatically. Messages from people are skipped. Before asking for this permission, the app explains what it reads.</li>
+  <li><strong>Notifications, only if you turn on "App alerts".</strong> Pocketsense reads payment alerts from banking and payment apps, such as UPI apps, and from bank chats in messaging apps, to catch payments that don't arrive as SMS.</li>
+  <li><strong>Gmail, only if you connect it.</strong> If you sign in with Google, Pocketsense asks for read-only access (<code>gmail.readonly</code>). It searches only for transaction alerts and statements from known bank and payment senders, and downloads them directly from Google to your phone. Pocketsense never sends, deletes or changes your email. You can disconnect at any time in the app, or at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  <li><strong>Splitwise, only if you connect it.</strong> With your own Splitwise API key, the app reads your shared expenses and balances. It never posts to Splitwise. The key is stored encrypted on your phone.</li>
+  <li><strong>Files you choose.</strong> Statement PDFs or CSV files you import are read on your phone. Passwords you enter for statements stay on your phone.</li>
+</ul>
+
+<h2>Where your data lives</h2>
+<p>All transactions, budgets, goals and settings are stored only on your phone, in an encrypted database (SQLCipher) whose key is protected by the Android Keystore. Android cloud backup is turned off for this app. Pocketsense has no analytics, advertising or tracking SDKs, and no AI or cloud processing.</p>
+
+<h2>Network use</h2>
+<p>The app connects to the internet only for services you connect yourself: Google, to read your own Gmail, and Splitwise, if you add your Splitwise API key, to read your own shared expenses and balances (read-only). Requests go directly from your phone to these services. Nothing is sent to us.</p>
+
+<h2>Sharing</h2>
+<p>We do not share data with anyone. Data leaves your phone only when you choose to export it, for example as a CSV file or a masked review file, and you decide where that file goes.</p>
+
+<h2>Google API Services</h2>
+<p>Pocketsense's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Gmail data is used only to show your own transactions to you inside the app. It is not transferred to anyone, not used for advertising, and not read by humans.</p>
+
+<h2>Deleting your data</h2>
+<p>To delete everything, use "Erase all my data" (Profile &amp; settings → Your data), or uninstall the app. Because there are no accounts or servers, nothing remains with us.</p>
+
+<h2>Children</h2>
+<p>Pocketsense is meant for adults and is not directed at children under 18.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a></p>
+</body>
+</html>
